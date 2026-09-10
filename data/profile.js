@@ -61,7 +61,7 @@ window.SITE_PROFILE = {
     "Computational Photography"
   ],
   "about": [
-    "I am a postdoctoral researcher at Peng Cheng Laboratory, working with Dr. Wenhan Yang. My research focuses on computational imaging and event-based vision, with an emphasis on image restoration, video reconstruction, and learning-based visual perception.",
+    "I am a postdoctoral researcher at Peng Cheng Laboratory, working with Prof. Wenhan Yang. My research focuses on computational imaging and event-based vision, with an emphasis on image restoration, video reconstruction, and learning-based visual perception.",
     "I conducted my doctoral research under the supervision of Prof. Lei Yu and Prof. Gui-Song Xia, and my master's research under the supervision of Prof. Yuming Fang.",
     "My recent work explores how asynchronous event streams and conventional images can be jointly modeled to recover spatial detail and temporal dynamics under challenging imaging conditions. I am particularly interested in self-supervised learning for motion deblurring, frame interpolation, and super-resolution, as well as event-based depth estimation and neural scene reconstruction."
   ],
