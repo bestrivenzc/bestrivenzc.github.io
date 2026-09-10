@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chi Zhang</title>
+    <meta
+      name="description"
+      content="Chi Zhang, postdoctoral researcher at Peng Cheng Laboratory. Research in event-based vision, computational imaging, and image restoration."
+    />
+    <meta property="og:title" content="Chi Zhang" />
+    <meta
+      property="og:description"
+      content="Postdoctoral researcher at Peng Cheng Laboratory. Event-based vision, computational imaging, and image restoration."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/img/avatar-seaside.jpg" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to content</a>
+    <header class="topbar">
+      <nav class="topbar-inner" aria-label="Primary navigation">
+        <a class="brand" href="#top">Homepage</a>
+        <a href="#about">About Me</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#services">Services</a>
+        <a href="#misc">Misc</a>
+      </nav>
+    </header>
+
+    <main id="top" class="shell">
+      <aside class="profile-panel" aria-label="Profile">
+        <div class="profile-card">
+          <div class="avatar">
+            <img src="assets/img/avatar-seaside.jpg" alt="Chi Zhang by the sea" width="1706" height="1279" />
+          </div>
+          <div class="profile-identity">
+            <h1 data-profile="name">Chi Zhang</h1>
+            <p class="role" data-profile="role">Postdoctoral Researcher</p>
+            <p class="affiliation" data-profile="affiliation"></p>
+          </div>
+          <p class="profile-bio" data-profile="sidebarBio"></p>
+          <div class="profile-contact">
+            <p class="location"><span data-icon="MapPin" aria-hidden="true"></span><span data-profile="location"></span></p>
+            <div class="link-list" id="profile-links"></div>
+          </div>
+          <dl class="metric-grid" id="profile-metrics" hidden></dl>
+        </div>
+      </aside>
+
+      <div class="content">
+        <section id="about" class="section first-section">
+          <div class="section-heading">
+            <h2>About Me</h2>
+          </div>
+          <div class="prose" id="about-content"></div>
+          <div class="tag-row" id="research-tags"></div>
+        </section>
+
+        <section id="news" class="section">
+          <div class="section-heading">
+            <h2><span class="heading-icon" aria-hidden="true">&#128293;</span> News</h2>
+          </div>
+          <ol class="timeline" id="news-list" tabindex="0" aria-label="Research news"></ol>
+        </section>
+
+        <section id="publications" class="section">
+          <div class="section-heading">
+            <h2><span class="heading-icon" aria-hidden="true">&#128221;</span> Publications</h2>
+          </div>
+          <div class="paper-grid" id="featured-publications"></div>
+          <ul class="paper-list" id="publication-list" aria-label="Complete publication list" hidden></ul>
+        </section>
+
+        <section id="services" class="section">
+          <div class="section-heading">
+            <h2><span class="heading-icon" aria-hidden="true">&#128187;</span> Services</h2>
+          </div>
+          <div class="service-grid" id="service-list"></div>
+        </section>
+
+        <section id="misc" class="section">
+          <div class="section-heading">
+            <h2><span class="heading-icon" aria-hidden="true">&#127864;</span> Misc</h2>
+          </div>
+          <div class="misc-content" id="misc-list"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Last updated <span data-profile="lastUpdated">2026</span>.
+      </p>
+    </footer>
+
+    <script src="data/profile.js"></script>
+    <script src="assets/js/icons.js"></script>
+    <script src="assets/js/site.js"></script>
+  </body>
+</html>
